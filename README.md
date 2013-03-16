@@ -1,4 +1,4 @@
-# clj-uuid-utils
+# clj-uuid-utils [![Build Status](https://travis-ci.org/franks42/clj-uuid-utils.png?branch=master)](http://travis-ci.org/franks42/clj-uuid-utils)
 
 Thin wrapper over java.util.UUID plus some convenience transformation/type-coercion fns.
 
@@ -30,6 +30,12 @@ REPL examples:
 
 ```
 
+
+## Continuous Integration
+
+The testing of the "clj-uuid-utils" project itself is integrated with Travis CI, and the test scripts are run on clojure version 1.5, and on jdk 6 and 7.
+
+[![Build Status](https://travis-ci.org/franks42/clj-uuid-utils.png?branch=master)](http://travis-ci.org/franks42/clj-uuid-utils)
 
 ## License
 
