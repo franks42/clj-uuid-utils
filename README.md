@@ -17,6 +17,11 @@ Require clj-uuid-utils library:
 ```clojure
 (ns myapp
   (:use [clj-uuid-utils]))
+
+(def a-random-uuid (make-random-uuid))
+
+(def a-uri-from-uuid (make-uri a-random-uuid))
+
 ```
 
 REPL examples:
